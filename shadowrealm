@@ -1,0 +1,48 @@
+    Altes System von Links
+    <div>
+        <table>
+            <tr>
+                <th>
+                    <h1>Main</h1>
+                </th>
+                <th>
+                    <h1>Side</h1>
+                </th>
+            </tr>
+            <tr>
+                <td>
+                    <figure class="socialmediatabelle">
+                        <a class="smteintrag" href="https://www.youtube.com/@zaugstauger">
+                            <p class="smttablefixer">
+                                <span><img class="smttablefixer" src="Images/FavIcon.png" width = "21"> </span><span> woaaaaah </span>
+                            </p>
+                        </a>
+                        <a class="smteintrag" href="https://www.youtube.com/@zaugstauger">
+                            <p>
+                                <span><img class="smttablefixer" src="Images/FavIcon.png" width = "21"> </span>
+                                <span> wah </span>
+                            </p>
+                        </a>
+                        <a class="smteintrag" href="https://www.youtube.com/@zaugstauger">
+                            <p>
+                                <img src="Images/FavIcon.png" width = "21"> wahaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaa 
+                            </p>
+                        </a>
+                        <smteintrag>woppa</smteintrag>
+                        <smteintrag>woppa</smteintrag>
+                    </figure>
+                </td>
+                
+
+                <td>
+                    <p class="socialmediatabelle">
+                        <smteintrag>woppa</smteintrag>
+                        <smteintrag>woppa</smteintrag>
+                        <smteintrag>woppa</smteintrag>
+                    </p>
+                </td>
+            </tr>
+        </table>
+        
+    </div>
+    
