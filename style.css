@@ -114,3 +114,13 @@
                 background-color: #090909;
             }
         }
+
+        .MuseumPic {
+            display: grid;
+            grid-auto-columns: auto;
+            grid-auto-rows: 560px;
+            grid-auto-flow: column;
+            position: absolute;
+            gap: 20px;
+            top: 250px;
+        }
