@@ -117,10 +117,29 @@
 
         .MuseumPic {
             display: grid;
-            grid-auto-columns: auto;
+            grid-auto-columns: auto ;
             grid-auto-rows: 560px;
             grid-auto-flow: column;
             position: absolute;
             gap: 20px;
             top: 250px;
+        }
+
+        .saule {
+            position: relative;
+            top: -77px;
+            left: auto;
+        }
+
+        .Museumstur {
+            position: relative;
+            background: url(Images/Museum/Tür.png) no-repeat;
+            width: 314px;
+            top: 205px;
+            color: #fff;
+        }
+
+        .Museumstur:hover {
+            background: url(Images/Museum/Türopen.png) no-repeat;
+
         }
