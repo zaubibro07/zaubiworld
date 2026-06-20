@@ -115,7 +115,7 @@
             }
         }
 
-        .MuseumPic {
+        .MuseumGrid {
             display: grid;
             grid-auto-columns: auto ;
             grid-auto-rows: 560px;
@@ -123,6 +123,7 @@
             position: absolute;
             gap: 20px;
             top: 250px;
+            box-shadow: #090909;
         }
 
         .saule {
@@ -131,10 +132,17 @@
             left: auto;
         }
 
+        .MuseumPic {
+            border: 7px #a57c14;
+            border-style: double;
+            box-shadow: #090909a1 5px 4px 5px;
+        }
+
         .Museumstur {
             position: relative;
             background: url(Images/Museum/Tür.png) no-repeat;
             width: 314px;
+            height: 450px;
             top: 205px;
             color: #fff;
         }
@@ -143,3 +151,49 @@
             background: url(Images/Museum/Türopen.png) no-repeat;
 
         }
+
+        #TomoMuseumstur {
+            background: url(Images/Museum/TomoDoorClosed.png) no-repeat;
+        }
+
+        #TomoMuseumstur:hover {
+            background: url(Images/Museum/TomoDoorOpen.png) no-repeat;
+        }
+
+        .MuseumLogo {
+            position: relative;
+            left: 240px
+        }
+
+        #Art {
+            position: relative;
+            Top:760px;
+        }
+
+
+        
+        .SplatoonCharacter {
+            position: relative;
+            background: url(Games/Splatoon/Images/Character.png) no-repeat;
+            width: 630px;
+            height: 535px;
+            transform:scale(0.5);
+        }
+
+        .SplatoonCharacter:hover {
+            background: url(Games/Splatoon/Images/CharcterPressed.png) no-repeat
+        }
+
+        .SplatoonMusic {
+            position: relative;
+            background: url(Games/Splatoon/Images/Music.png) no-repeat;
+            width: 670px;
+            height: 589px;
+            transform:scale(0.5);
+        }
+
+        .SplatoonMusic:hover {
+            background: url(Games/Splatoon/Images/MusicPressed.png) no-repeat
+        }
+
+        
